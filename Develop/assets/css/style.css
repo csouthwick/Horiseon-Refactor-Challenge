@@ -18,6 +18,7 @@ p {
     font-size: 16px;
 }
 
+
 /* utility classes */
 .float-left {
     float: left;
@@ -28,6 +29,7 @@ p {
     float: right;
     margin-left: 25px;
 }
+
 
 /* header styles */
 header {
@@ -63,6 +65,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
+
 /* hero styles */
 .hero {
     height: 800px;
@@ -73,7 +76,14 @@ header nav ul li {
     background-position: center;
 }
 
-/* main content styles */
+
+/* 
+* main content styles
+*  - While it is possible to continue using a "content" class here, the
+*    single <main> element allows targeting the same content for styling.
+*    If an additional <main> element was added and needed different
+*    styling, then we would want to go back to using classes.
+*/
 main {
     width: 75%;
     display: inline-block;
@@ -99,7 +109,14 @@ main section h2 {
 }
 
 
-/* benefits styles */
+/* 
+* benefits styles
+*  - Similar to the main content section, while it is possible to continue
+*    using a "benefits" class here, the single <aside> element allows
+*    targeting the same content for styling. If an additional <aside>
+*    element was added and needed different styling, then we would want to
+*    go back to using classes.
+*/
 aside {
     margin-right: 20px;
     padding: 20px;
