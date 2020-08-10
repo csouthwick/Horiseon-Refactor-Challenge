@@ -5,7 +5,6 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
         <title>Horiseon</title>
     </head>
-
     <body>
         <header>
             <h1>Hori<span class="seo">seo</span>n</h1>
@@ -23,8 +22,11 @@
                 </ul>
             </nav>
         </header>
+        <!-- The Hero <div> below could be changed into a <section> element; however,
+            it contains no text content for screen readers and is purely decorational.
+            For this reason, it has been left as a <div> -->
         <div class="hero"></div>
-        <main class="content">
+        <main>
             <section id="search-engine-optimization">
                 <img src="./assets/images/search-engine-optimization.jpg" alt="" class="float-left" />
                 <h2>Search Engine Optimization</h2>
@@ -47,7 +49,10 @@
                 </p>
             </section>
         </main>
-        <aside class="benefits">
+        <aside>
+            <!-- Although adding an h2 here changes the page to be different from the provided screenshot
+                in the challenge assignment, it correctly identifies this section and fixes the semantic
+                issue of the h3 tags below not being associated with an h2 tag above them. -->
             <h2>Benefits</h2>
             <section>
                 <h3>Lead Generation</h3>
