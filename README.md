@@ -1,6 +1,6 @@
 # Horiseon Refactor Challenge
 A forked challenge project to improve the codebase by:
-- Refacotring divs into HTML5 semantic elements
+- Refactoring divs into HTML5 semantic elements
 - Ensuring h1 ... h(n) headings follow a sequential/hierarchical order
 - Adding accessable alt attributes to image tags
 - Adding a meaningful (browser tab) title for the page
